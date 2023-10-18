@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  header {
+    padding: 15px 0;
+    box-shadow: 5px 5px 9px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    background-color: #fff;
+    z-index: 1;
+  }
+  
+  header h2 {
+    font-size: 26px;
+    color: rgb(132, 133, 132);
+    font-weight: 500;
+  }
+  
+  main {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("IMAGES/HealthHazard.jpg");
+    width: 100%;
+    min-height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+  }
+  
+  main h1 {
+    font-size: 54px;
+    color: #fff;
+    min-height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section-one {
+    margin: 50px auto;
+    width: 60%;
+  }
+  
+  .section-one div {
+    text-align: center;
+  }
+  
+  .section-one div h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  
+  .section-one div p {
+    font-size: 21px;
+    line-height: 1.6;
+    color: rgb(35, 35, 35);
+  }
+  /***********THIS IS THE END OF SECTION ONE**********/
+  /***********THIS IS THE END OF SECTION ONE**********/
+  /***********THIS IS THE END OF SECTION ONE**********/
+  .section-three {
+    margin: 70px 0 50px;
+  }
+  .section-three-width {
+    width: 85%;
+    margin: 0 auto;
+  }
+  
+  .section-three-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 50px;
+  }
+  .section-three-item {
+    width: 47%;
+  }
+  
+  .section-three-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .section-three-text h2 {
+    margin: 15px 0;
+    font-size: 23px;
+    color: #606060;
+  }
+  
+  .section-three-text p {
+    font-size: 21px;
+    line-height: 1.6;
+    color: rgb(0, 59, 10);
+  }
+  
+  .section-three-width > h2 {
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 28px;
+    color: rgb(53, 98, 111);
+  }
+  
+  .minimize, .hazard {
+    color: rgb(42, 151, 42);
+  }
+
+  /******THIS IS THE END OF SECTION THREE*********/
+/******THIS IS THE END OF SECTION THREE*********/
+/******THIS IS THE END OF SECTION THREE*********/
+.section-four{
+    width: 85%;
+    margin: 90px auto 40px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 15px;
+    width: 30%;
+    box-shadow: 0px 0px 15px rgba(161, 161, 161, 0.2);
+    padding: 20px 0;
+  }
+  .section-four img{
+    width: 50px;
+    margin-left: 20px;
+    transition: .3s ease-in;
+  }
+
+  .section-four img:hover{
+    transform: scale(1.14);
+  }
+  
+  footer {
+    padding: 13px 0;
+    background-color: black;
+    text-align: center;
+    color: #8e8e8e;
+  }
+  
+  footer p {
+    font-size: 15px;
+  }
